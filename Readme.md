@@ -1,7 +1,9 @@
 # Личный проект «Техномарт»
 
-* Студент: [Никита Грачев](https://up.htmlacademy.ru/htmlcss/25/user/1069497).
+* Студент: [Никита Грачев]
+(https://up.htmlacademy.ru/htmlcss/25/user/1069497).
 * Наставник: [Игорь Бабушкин]
+(https://htmlacademy.ru/profile/id185816).
 
 ---
 
