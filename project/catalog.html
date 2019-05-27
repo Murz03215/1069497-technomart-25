@@ -10,11 +10,15 @@
                 <a class="main-header-logo">
                 <img src="img/index-logo.svg" width="100"height="30"alt="Логотип интернет-магазина Техномарт">
                     </a>
+                    <label for="search">Поиск</label>
+                    <input id="search" type="search" autofocus> 
                     <div class="adress-header">г.Санкт-Петербург,ул. Конюшенная д. 19/8</div>
                         <ul class="user-navigation">
                             <li><a href="bookmark.html">Закладки</a></li>
+                            <li><a href="basket.html">Корзина</a></li>
                             <li><a href="checkout.html">Оформить заказ</a></li>
                             <li><a href="login.html">Равшан Джамшутович</a></li>
+                            <li><a href="logout.html">Выйти</a></li>
                             <li><a href="my-orders.html">Мои заказы</a></li>
                             <li><a href="user-account.html">Личный кабинет</a></li>
                         </ul>    
@@ -31,14 +35,43 @@
         </header>        
                 <main>        
                     <ul class="catalog-navigation">
-                      <li>каталог</li>
+                      <li><a href="catalog.html">каталог</a></li>
                         <ul>
-                          <li>инструмент</li>
+                          <li><a href="powertools.html">инструмент</a></li>
                             <ul>
-                                <li>перфораторы</li>
+                                <li><a href="perforators">перфораторы</a></li>
                             </ul>
                         </ul>    
                     </ul>
+                    <section class="filter">    
+                        <fieldset>     
+                            <legend>производители:</legend>
+                                <label for="bosch">bosch</label>
+                                    <input id="bosch" type="checkbox" checked>
+                                <label for="интерскол">интерскол</label>
+                                    <input id="интерскол" type="checkbox">
+                                <label for="makita">makita</label>
+                                    <input id="makita" type="checkbox" checked>
+                                <label for="dewalt">dewalt</label>
+                                    <input id="dewalt" type="checkbox">
+                                <label for="hitachi">hitachi</label>
+                                    <input id="hitachi" type="checkbox">   
+                        </fieldset>
+                        <fieldset>
+                            <legend>питание</legend>
+                                <label for="accumulator">аккумуляторные</label>
+                                    <input id="accumulator" type="checkbox" checked>
+                                <label for="electric">сетевые</label>    
+                                    <input id="electric" type="checkbox"> 
+                        </fieldset>     
+                        <button type="submit">показать</button>
+                        </section>
+                        <fieldset>
+                            <input type="button" value="Закрыть">
+                        <p>Товар добавлен в корзину!</p>    
+                        <input type="submit" value="Оформить заказ">
+                        <input type="button" value="Продолжить покупки">
+                        </fieldset>
                 <section class="perforators">  
                     <h1>перфораторы</h1>
                         <ul class="filtred-tools">
@@ -95,23 +128,6 @@
                                 <b class="normal price">12500 р.</b>
                         </ul>
                 </section>        
-                <section class="manufacturers">    
-                    <h2>производители:</h2>
-                        <ul class="manufaturers-list">
-                            <li>bosch</li>
-                            <li>интерскол</li>
-                            <li>makita</li>
-                            <li>dewalt</li>
-                            <li>hitachi</li>   
-                         </ul>       
-                    <h2>питание</h2>
-                        <ul class="type-of-power">
-                            <li>аккумуляторные</li>
-                            <li>сетевые</li>
-                            <a class="button" href="#">показать</a>
-                        </ul>     
-                    </section>
-                
                 </main>
 <footer class="main-footer"> 
     <nav class="footer-navigation">
