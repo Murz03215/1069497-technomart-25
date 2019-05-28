@@ -1,0 +1,22 @@
+body {
+    
+    margin: 0px;
+    padding: 0px;
+
+    font-family: "PT Sans" , sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff;
+
+}
+
+a {
+    text-decoration: none;
+}
+.user-navigation{
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 17px;
+    color: #ffffff ;
+
+}
